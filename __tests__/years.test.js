@@ -9,5 +9,10 @@ describe('Years', () => {
         const years = new Years("mercury", "venus", "mars", "jupiter", "earth");
         let eYear = 3;
         expect(years.mercuryYear(eYear)).toEqual(12.5);
+    });
+    test('it should calculate a Venus year compared to an Earth year.', () => {
+        const years = new Years("mercury", "venus", "mars", "jupiter", "earth");
+        let eYear = 3;
+        expect(years.venusYear(eYear)).toEqual(4.83);
     })
 })
