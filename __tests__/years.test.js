@@ -1,10 +1,8 @@
 import Years from './../src/years';
 
 describe('Years', () => {
-    beforeEach(() => { const years = new Years() });
-
     test('it should create a class called years', () => {
-        beforeEach();
-        expect(years).toEqual(mercury, venus, mars, jupiter, earth);
+        const years = new Years("mercury", "venus", "mars", "jupiter", "earth");
+        expect(years).toEqual({"mercury":"mercury", "venus": "venus", "mars": "mars", "jupiter": "jupiter", "earth": "earth"});
     });
 })
