@@ -36,5 +36,11 @@ describe('Years', () => {
         let currentAge = 56;
         let pastAge = 43;
         expect(years.planetAges(currentAge, pastAge)).toEqual(["54.17", "20.97", "6.91", "1.10"]);
+    });
+    test('it should determine how many years have yet to pass on each planet given a users current age and future age.', () => {
+        const years = new Years("mercury", "venus", "mars", "jupiter", "earth");
+        let currentAge = 56;
+        let futureAge = 61;
+        expect(years.futureAges(currentAge, futureAge)).toEqual("20.83");
     })
 })
