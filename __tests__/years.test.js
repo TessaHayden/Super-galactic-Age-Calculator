@@ -20,5 +20,10 @@ describe('Years', () => {
         let eYear = 3;
         expect(years.marsYear(eYear)).toEqual("2058.60")
     });
+    test('it should calculate a Jupiter year, to 2 decimal places, compared to an Earth year.', () => {
+        const years = new Years("mercury", "venus", "mars", "jupiter", "earth");
+        let eYear = 3;
+        expect(years.jupiterYear(eYear)).toEqual("12986.70")
+    })
     
 })
