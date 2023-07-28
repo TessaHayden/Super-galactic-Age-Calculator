@@ -13,4 +13,7 @@ export default class Years {
     venusYear(eYear) {
         return ((eYear * 365) / 226.3).toFixed(2);
     }
+    marsYear(eYear) {
+        return ((eYear * 365) * 1.88).toFixed(2);
+    }
 }
