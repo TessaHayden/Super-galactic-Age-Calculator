@@ -41,6 +41,6 @@ describe('Years', () => {
         const years = new Years("mercury", "venus", "mars", "jupiter", "earth");
         let currentAge = 56;
         let futureAge = 61;
-        expect(years.futureAges(currentAge, futureAge)).toEqual("20.83");
-    })
+        expect(years.futureAge(currentAge, futureAge)).toEqual(["20.83", "8.06", "2.66", "0.42"]);
+    });
 })

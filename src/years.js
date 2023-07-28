@@ -32,4 +32,17 @@ export default class Years {
         ageArray.push(jupiterAge);
         return ageArray;
     }
+    futureAge(currentAge, futureAge) {
+        let ageDiff = futureAge - currentAge;
+        let ageArray = [];
+        let mercuryAge = this.mercuryYear(ageDiff);
+        let venusAge = this.venusYear(ageDiff);
+        let marsAge = (ageDiff / 1.88).toFixed(2);
+        let jupiterAge = (ageDiff / 11.86).toFixed(2);
+        ageArray.push(mercuryAge);
+        ageArray.push(venusAge);
+        ageArray.push(marsAge);
+        ageArray.push(jupiterAge);
+        return ageArray;
+    }
 }
