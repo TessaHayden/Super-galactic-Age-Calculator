@@ -11,6 +11,6 @@ export default class Years {
         return (eYear * 365) / 87.6;
     }
     venusYear(eYear) {
-        return (eYear * 365) / 226.3;
+        return ((eYear * 365) / 226.3).toFixed(2);
     }
 }

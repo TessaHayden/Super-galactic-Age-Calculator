@@ -10,12 +10,11 @@ describe('Years', () => {
         let eYear = 3;
         expect(years.mercuryYear(eYear)).toEqual(12.5);
     });
-    test('it should calculate a Venus year compared to an Earth year.', () => {
+    test('it should calculate a Venus year - to 2 decimal places - compared to an Earth year.', () => {
         const years = new Years("mercury", "venus", "mars", "jupiter", "earth");
         let eYear = 3;
-        expect(years.venusYear(eYear)).toEqual(4.838709677419355);
+        expect(years.venusYear(eYear)).toEqual("4.84");
     });
-    test('it should round down to 2 decimal places.', () => {
-        
-    })
+    test('')
+    
 })
