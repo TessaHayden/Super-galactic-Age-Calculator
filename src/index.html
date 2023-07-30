@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Super Galactic Age Calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Super Galactic Age Calculator</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <form>
+                        <div class="form-group">
+                            <label for="currAgeInput">Your age</label>
+                            <input type="text" class="form-control" id="currAgeInput" placeholder="Your current age">
+                        </div>
+                        <div class="form-group">
+                            <label for="pastAgeInput">Past age</label>
+                            <input type="text" class="form-control" id="pastAgeInput" placeholder="Your prior age">
+                        </div>
+                        <div class="form-group">
+                            <label for="futureAgeInput">Future age</label>
+                            <input type="text" class="form-control" id="futureAgeInput" placeholder="Your future age">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../src/assets/imgs/mercury.jpg" alt="Mercury hanging in space">
+                        <div class="card-body">
+                            <h5 class="card-title">Mercury</h5>
+                            <p class="card-text">Mercury year is .24 Earth years.<span id="hidden-age"></span><span id="hidden-passed"></span><span id="hidden-future"></span></p>
+                            <button type="button" id="mercury-btn" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../src/assets/imgs/venus.jpg" alt="Venus hanging in space">
+                        <div class="card-body">
+                            <h5 class="card-title">Venus</h5>
+                            <p class="card-text">Venus year is .62 Earth years.</p>
+                            <button type="button" id="venus-btn" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../src/assets/imgs/mars.jpg" alt="Mars hanging in space">
+                        <div class="card-body">
+                            <h5 class="card-title">Mars</h5>
+                            <p class="card-text">Mars year is 1.88 Earth years.</p>
+                            <button type="button" id="mars-btn" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img class="card-img-top" src="../src/assets/imgs/jupiter.jpg" alt="Jupiter hanging in space">
+                        <div class="card-body">
+                            <h5 class="card-title">Jupiter</h5>
+                            <p class="card-text">Jupiter year is 1.88 Earth years.</p>
+                            <button type="button" id="jupiter-btn" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- container div -->
+        </div> 
+    </body>
+</html>

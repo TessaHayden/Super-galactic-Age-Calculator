@@ -1,0 +1,67 @@
+## Super Galactic Age Calculator
+
+##### By Tessa Hayden
+
+---
+
+An application that calculates a person's age on other planets.
+
+#### Technologies used:
+
+1. HTML
+2. CSS
+3. Javascript
+4. Bootstrap
+5. Web APIs
+6. Babel
+7. Eslint
+8. Jest
+9. Webpack
+
+
+### Description:
+
+A year on planet Earth is 365 days, but what about a year on Mars or Jupiter?  Found out how long another planet's year is and what your age would be.
+
+### Setup:
+
+- _Clone Repository to your desktop_
+- _Run command "npm init -y" in root directory_
+- _Install dependencies:_ 
+>      "devDependencies": {
+>        "@babel/core": "^7.18.6",
+>        "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+>        "clean-webpack-plugin": "^3.0.0",
+>        "css-loader": "^3.6.0",
+>        "eslint": "^8.18.0",
+>        "eslint-webpack-plugin": "^2.7.0",
+>        "file-loader": "^6.2.0",
+>        "html-loader": "^1.3.2",
+>        "html-webpack-plugin": "^4.5.2",
+>        "jest": "^24.9.0",
+>        "style-loader": "^1.3.0",
+>        "webpack": "4.46.0",
+>        "webpack-cli": "^3.3.12",
+>        "webpack-dev-server": "3.11.3"
+>    },
+>  "dependencies": {
+>    "bootstrap": "^5.2.3"
+>  }
+- _Navigate to the top level of directory, index.html_
+- _Open index.html in your browser_
+
+#### Link to repository:
+
+https://github.com/TessaHayden/super-galactic-age-calculator
+
+#### Known Bugs:
+
+
+<sub>MIT
+copyright (c) _2023_ _Tessa Hayden_
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</sub>

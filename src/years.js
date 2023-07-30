@@ -6,7 +6,6 @@ export default class Years {
         this.jupiter = jupiter;
         this.earth = earth
     }
-
     mercuryYear(eYear) {
         return ((eYear * 365) / 87.6).toFixed(2);
     }
