@@ -47,8 +47,9 @@ A year on planet Earth is 365 days, but what about a year on Mars or Jupiter?  F
 >  "dependencies": {
 >    "bootstrap": "^5.2.3"
 >  }
-- _Navigate to the top level of directory, index.html_
-- _Open index.html in your browser_
+- to install dependencies: `$npm install`
+- to run application: `$npm run build`
+- to run tests: `$npm test`
 
 #### Link to repository:
 
