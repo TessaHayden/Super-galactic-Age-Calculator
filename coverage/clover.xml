@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690560274045" clover="3.2.0">
-  <project timestamp="1690560274045" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="38" coveredelements="38" complexity="0" loc="31" ncloc="31" packages="1" files="1" classes="1"/>
+<coverage generated="1691253652030" clover="3.2.0">
+  <project timestamp="1691253652030" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="40" coveredelements="40" complexity="0" loc="32" ncloc="32" packages="1" files="1" classes="1"/>
     <file name="years.js" path="/Users/tessahayden/Desktop/Epicodus/galactic-age-calculator/src/years.js">
-      <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
-      <line num="3" count="7" type="stmt"/>
-      <line num="4" count="7" type="stmt"/>
-      <line num="5" count="7" type="stmt"/>
-      <line num="6" count="7" type="stmt"/>
-      <line num="7" count="7" type="stmt"/>
+      <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <line num="3" count="8" type="stmt"/>
+      <line num="4" count="8" type="stmt"/>
+      <line num="5" count="8" type="stmt"/>
+      <line num="6" count="8" type="stmt"/>
+      <line num="7" count="8" type="stmt"/>
       <line num="10" count="3" type="stmt"/>
-      <line num="13" count="3" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
       <line num="19" count="1" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
       <line num="25" count="1" type="stmt"/>
       <line num="26" count="1" type="stmt"/>
       <line num="27" count="1" type="stmt"/>
@@ -24,9 +22,9 @@
       <line num="30" count="1" type="stmt"/>
       <line num="31" count="1" type="stmt"/>
       <line num="32" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
       <line num="35" count="1" type="stmt"/>
-      <line num="36" count="1" type="stmt"/>
-      <line num="37" count="1" type="stmt"/>
       <line num="38" count="1" type="stmt"/>
       <line num="39" count="1" type="stmt"/>
       <line num="40" count="1" type="stmt"/>
@@ -35,6 +33,9 @@
       <line num="43" count="1" type="stmt"/>
       <line num="44" count="1" type="stmt"/>
       <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

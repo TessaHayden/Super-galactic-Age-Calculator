@@ -1,0 +1,10 @@
+.hidden {
+    display: none;
+}
+.jumbotron {
+    margin-top: 2%;
+    padding: 1%;
+}
+body {
+    background-image: url('../assets/imgs/starrysky.jpg');
+}
